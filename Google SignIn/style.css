@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    font-size: 62.5%; /*10px*/
+}
+
+body {
+    box-sizing: inherit;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: 'Open Sans','Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+/*    justify-content: center;*/
+}
+
+.logo {
+    background-image: url(https://ssl.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_112x36dp.png);
+    background-size: 112px 36px;
+    background-repeat: none;
+    margin: 40px auto 30px;
+    height: 36px;
+    width: 113px;
+}
+
+h1 {
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 4.2rem;
+    color: rgb(85, 85, 85);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: rgb(85, 85, 85);
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: rgb(247, 247, 247);
+    width: 300px;
+    padding: 50px 50px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+/*    background-image: url(https://lh3.googleusercontent.com/-RAppnhNHpNU/AAAAAAAAAAI/AAAAAAAAAAA/AKB_U8sh8a125h5s7T_1lqXbZCy07TOOmg/mo/photo.jpg?sz=120);*/
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-image: url(me.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 10px;
+    
+}
+
+.profile-name {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.password {
+    height: 44px;
+    font-size: 1.6rem;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(217, 217, 217);
+    padding: 0 8px;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.password:focus {
+    border: 1px solid rgb(48, 121, 237);
+}
+
+.sign-in {
+    font-size: 1.4rem;
+    background-color: rgb(77, 144, 254);
+    border: 1px solid rgb(48, 121, 237);
+    color: rgb(255,255,255);
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 10px 10px;
+    height: 36px;
+    font-weight: 600;
+    
+}
+
+a.help {
+    width: 100%;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(77, 144, 254);
+}
+
+a.diff {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(77, 144, 254);
+}
+
+
+@media only screen and (max-width: 514px) {  
+    h1 {
+        font-size: 3rem;
+    }  
+}
