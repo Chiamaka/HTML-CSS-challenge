@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	box-sizing: inherit;
+	-webkit-font-smoothing: antialiased;
+    font-size: 62.5%; /*10px*/
+	font-weight: 400;
+}
+
+body {
+	font-family: 'Arsenal', sans-serif;
+	font-size: 1.6rem;
+}
+
+.nav {
+	background-color: white; 
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	font-weight: 700;
+}
+
+.body__container {
+	height: 90vh;
+	background-image: url('https://img1.wsimg.com/auth/v1/static/240/img/en_GB/rebrand-bg-image.jpg');
+	background-size: cover;
+}
+
+.signin__container {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	min-width: 25%;
+	justify-content: flex-start;
+	background-color: rgb(255,255,255);
+	margin-top: 50px;
+	right: 100px;
+}
+
+.header__group {
+	background-color: rgb(0, 166, 63);	
+	width: 100%;
+	height: 12vh;
+	text-align: center;
+	padding: 10px;
+}
+
+#logoText {
+	color: rgb(255,255,255);
+	z-index: 100;
+	position: absolute;
+	top: 11px;
+	right: 11px;
+}
+
+.signin__body {
+	padding: 30px;
+	font-size: 1.8rem;
+}
+
+#username {
+	font-weight: 700;
+}
+
+#password {
+	font-weight: 700;
+}
+.forgot {
+	color: rgb(0, 166, 63);
+	float: right;
+	font-size: 1.4rem;
+}
+.form-control {
+	width: 100%;
+	height: 46px;
+	padding: 10px 20px;
+	font-size: 1.6rem;
+	color: rgb(85, 85, 85);
+	vertical-align: middle;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid rgb(190, 190, 190);
+	margin-bottom: 10px;
+}
+input[type='checkbox'] {
+	margin: 10px 0px;
+}
+.signin__button {
+	width: 100%;
+	height: 46px;
+	padding: 10px 20px;
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: rgb(255,255,255);
+	vertical-align: middle;
+	background-color: rgb(0, 166, 63);
+	border-radius: 3px;
+	border: 1px solid rgb(0, 166, 63);
+}
+.signin__button:hover {
+	cursor: pointer;
+	background-color: #0dc352;
+}
+
+h3 {
+	width: 100%;
+	height: 20px;
+	border-bottom: 1px solid #e2e2e2;
+	text-align: center;
+	font-size: 1.8rem;
+	margin: 10px 0px;
+}
+
+h3 span {
+	padding: 0 10px;
+	line-height: 35px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.fb__button {
+	width: 100%;
+	height: 46px;
+	padding: 10px 20px;
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: rgb(255,255,255);
+	background-color: rgb(66, 103, 178);
+	border-radius: 3px;
+	border: 1px solid rgb(0, 166, 63);
+	margin-top: 20px;
+}
+
+footer {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background-color: #e2e2e2;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	height: 5vh;
+	align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+	.signin__container {
+/*		left: 2px;*/
+		right: 2px;
+	}
+}
