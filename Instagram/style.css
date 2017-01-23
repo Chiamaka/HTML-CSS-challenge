@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	
+}
+
+html {
+	font-family: 'Quicksand', sans-serif; 
+	background-color: #f8f9fa;
+	font-size: 62.5%;
+}
+
+.container {
+	width: 74.6%;
+	margin: 6% auto;
+}
+
+.base {
+	background-image: url(photos/base.png);
+	background-size: 454px 618px;
+	height: 618px;
+	background-repeat: no-repeat;
+	flex-basis: 454px;
+}
+
+.photos {
+	position: relative;
+	margin: 99px 0 0 151px;
+	display: flex;
+}
+
+.photos:hover {
+	filter: grayscale(1);
+}
+
+.photos img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	visibility: hidden;
+	opacity: 0.5;
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+}
+
+img.show {
+	visibility: visible;
+	opacity: 1;
+	transition: all 1.5s ease-in;
+	z-index: 2;
+	filter: blur(0);
+	-webkit-filter: blur(0);
+	-moz-filter: blur(0);
+	-ms-filter: blur(0);
+}
+
+.group {
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 980px) {
+	.base{
+		display: none;
+	}
+}
+.sign-in-container {
+	max-width: 350px;
+	margin-top:13px;
+	color: rgb(153, 153, 153);
+}
+
+.sign-in {
+	background-color: #ffffff;
+	border: 1px solid rgb(230, 230, 230);
+	padding: 0 40px;
+}
+
+.logo {
+	background-image: url(photos/logo.png);
+	width: 175px;
+	height: 51px;
+	background-size: 352px 311px;
+	margin: 22px auto 9px;
+}
+
+.text {
+	font-weight: 500;
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-size: 1.6rem;
+}
+
+.btn {
+	background-color: rgb(56, 151, 240);
+	color: rgb(255,255,255);
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 25px;
+	padding: 3px 11px;
+	cursor: pointer;
+	border-radius: 3px;
+	border: 1px solid rgb(56, 151, 240);
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.fb {
+	background-image: url(photos/logo.png);
+	background-size: 352px 311px;
+	background-position: -149px -273px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+	color: white;
+	position: relative;
+	top: 3px;
+}
+
+.divider {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.line {
+	background: rgb(199, 199, 199);
+	height: 1px;
+	position: relative;
+	flex-grow: 1;
+	top: 10px;
+}
+
+.or {
+	padding: 0 10px;
+	font-size: 1.6rem;
+	margin-bottom: 15px;
+}
+
+.form {
+	width: 100%;
+}
+
+.field {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 9px 8px;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	border: 1px solid rgb(219, 219, 219);
+	
+}
+
+.form button:last-child {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.t-c {
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 22.5px;
+	width: 80%;
+	margin: 0 auto 50px auto;
+	
+}
+
+.t-c  a {
+	font-weight: 500;
+	text-decoration: none;
+	color: inherit;
+}
+
+.have-account {
+	background-color: #fff;
+	text-align: center;
+	font-size: 1.6rem;
+	padding: 20px;
+	border: 1px solid rgb(230, 230, 230);
+	margin: 15px 0 20px 0;
+}
+
+.have-account p a {
+	text-decoration: none;
+	color: rgb(56, 151, 240);
+}
+
+.download {
+	text-align: center;
+	font-size: 1.6rem;
+	margin-bottom: 50px;
+}
+
+.download p {
+	margin-bottom: 15px;
+	color: #1c1c1c;
+}
+
+.download img {
+	height: 40px;
+}
+
+.copy {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	color: rgb(153, 153, 153);
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+.nav {
+	display: flex;
+	list-style: none;
+	width: 75%;
+	font-size: 1.6rem;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: rgb(12, 70, 106);
+	flex-flow: row wrap;
+}
+
+.nav-div {
+	display: flex;
+}
+
+::-webkit-input-placeholder {
+	font-family: 'Quicksand', sans-serif; 
+}
+
+::moz-placeholder {
+	font-family: 'Quicksand', sans-serif; 
+}
+
+::ms-input-placeholder {
+	font-family: 'Quicksand', sans-serif; 
+}
