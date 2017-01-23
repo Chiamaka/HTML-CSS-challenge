@@ -4,3 +4,4 @@
 Links to the challenges I have done  
 1. [Google Sign In page](http://htmlpreview.github.io/?https://github.com/Chiamaka/HTML-CSS-challenge/blob/master/Google%20SignIn/index.html)  [Original Photo](https://github.com/Chiamaka/HTML-CSS-challenge/blob/master/Google%20SignIn/photo.png)    
 2. [GoDaddy Sign In page](http://htmlpreview.github.io/?https://github.com/Chiamaka/HTML-CSS-challenge/blob/master/GoDaddy/index.html)  [Original Photo](https://github.com/Chiamaka/HTML-CSS-challenge/blob/master/GoDaddy/photo.png)
+3. [Instagram](http://htmlpreview.github.io/?https://github.com/Chiamaka/HTML-CSS-challenge/blob/master/Instagram/index.html) [Original Photo](https://github.com/Chiamaka/HTML-CSS-challenge/blob/master/Instagram/photo.png)
