@@ -1,5 +1,5 @@
 // Get all the img tags
-const images = document.querySelectorAll('img');
+const images = document.querySelector('.photos').children;
 
 window.onload = function () {
 	const start = {
@@ -25,7 +25,6 @@ window.onload = function () {
 				images[currentImage].classList.add('show');
 				
 			}, intervalTime);
-			
 		}
 	};
 	
